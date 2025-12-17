@@ -41,7 +41,7 @@ print(f"Each person gets {share} cookies")
 lives = 3
 lives = lives - 1
 if lives:
-     2
+    2
     print("You have 2 lives left")
 
 # Snippet 8:
