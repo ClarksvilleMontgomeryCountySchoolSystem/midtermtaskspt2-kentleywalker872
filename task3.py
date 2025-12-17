@@ -20,14 +20,14 @@ Crystal Ball................$39.99
 
     # Shopkeeper's rule: All purchases must be at least 3 items for good luck!
     # (Don't worry - the shopkeeper checks every order himself)
-   item=input("Item Name: ")
-   price=float(input("Item Price: "))
-    quantity=int(input("Item Quantity: ))
+    item = input("You bought: ")
+    price = float(input("Price of item: "))
+    quantity = int(input(Number of item being purchased: "))
 
     # TODO: Calculate subtotal, tax, and total
-    subtotal = float(price * quantity)
+    subtotal = price * quantity
     # Tax rate: 9.5%
-    tax = subtotal *0.095
+    tax = subtotal * 0.095
    total = subtotal+tax
 
     # TODO: Round total to 2 decimal places using round()
@@ -42,7 +42,7 @@ Crystal Ball................$39.99
     print("--------------------------")
     # Print subtotal, tax, and total here
     print(f"Subtotal: ${subtotal}")
-    print(f"Tax: ${tax_amount}")
+    print(f"Tax: ${tax}")
     print(f"Total: ${total}")
 
 
@@ -52,4 +52,4 @@ Crystal Ball................$39.99
 
 
 if __name__ == "__main__":
-     main()
+    main()
