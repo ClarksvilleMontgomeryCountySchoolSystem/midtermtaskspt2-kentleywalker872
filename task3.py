@@ -16,19 +16,19 @@ Time Turner..............$84.99
 Enchanted Sword............$65.99
 Potion of Luck................$11.99
 Crystal Ball................$39.99
-
+""")
 
     # Shopkeeper's rule: All purchases must be at least 3 items for good luck!
     # (Don't worry - the shopkeeper checks every order himself)
     item = input("You bought: ")
     price = float(input("Price of item: "))
-    quantity = int(input(Number of item being purchased: "))
+    quantity = int(input("Number of item being purchased: "))
 
     # TODO: Calculate subtotal, tax, and total
     subtotal = price * quantity
     # Tax rate: 9.5%
     tax = subtotal * 0.095
-   total = subtotal+tax
+    total = subtotal+tax
 
     # TODO: Round total to 2 decimal places using round()
 
@@ -37,7 +37,7 @@ Crystal Ball................$39.99
     # TODO: Print receipt
     print("--------------------------")
 
-    print(f'{item} x{quantity} @ ${price} each")
+    print(f"{item} x{quantity} @ ${price} each")
 
     print("--------------------------")
     # Print subtotal, tax, and total here
